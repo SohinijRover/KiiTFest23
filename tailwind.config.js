@@ -9,7 +9,10 @@ module.exports = {
       colors: {
         thBlue: "#faa7fa",
         thWhite: "#fff",
-        thPink:"#e0aae0",
+        thPink:"#dd78ff",
+        thGradBlue:"rgba(122, 219, 239, 1)",
+        thGradDBlue:"rgba(11, 80, 119, 1)",
+        thGradPink:"rgba(187, 9, 128, 1)",
       },
     },
   },
