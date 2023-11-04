@@ -2,6 +2,8 @@ import Head from "next/head";
 import Hero from "../components/Hero";
 import Events from "../components/Events";
 import Slider from "../components/Slider";
+// import Timer from "../components/Timer";
+import Timer from "../components/Timer";
 import { SliderData } from "../components/SliderData";
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Events />
+      <Timer/>
     </div>
   );
 }
