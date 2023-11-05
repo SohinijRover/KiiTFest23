@@ -1,12 +1,16 @@
 import Navbar from "./Navbar";
+import Image from "next/image";
 
 const HeroSection = ({ isMenuShown }) => {
   return (
     <div className="flex items-start justify-center w-full h-screen text-center">
-      <img
-        src="/assets/Background-images/hero-bg.png"
-        alt="Background Image"
+      <Image
+        src="/Assets/Background-images/hero-bg.png"
+        alt="event details"
+        width={100}
+        height={100}
         className="object-cover h-full w-full absolute -z-10"
+        style={{ margin: "120px 0 0 0" }}
       />
       <div className="absolute top-[-23px] left-0 w-full bg-transparent p-4">
         <Navbar />
@@ -17,11 +21,13 @@ const HeroSection = ({ isMenuShown }) => {
           isMenuShown ? "opacity-20" : "opacity-100"
         }`}
       >
-        <img
-          src="/assets/gradients/hero_gradient.png"
+        <Image
+          src="/Assets/Gradients/hero_gradient.png"
           alt="event details"
-          className="w-1200 h-120"
+          width={100}
+          height={100}
           style={{ margin: "120px 0 0 0" }}
+          className="w-1200 h-120"
         />
       </div>
     </div>
