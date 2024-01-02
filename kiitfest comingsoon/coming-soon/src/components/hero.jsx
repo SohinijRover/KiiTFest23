@@ -16,8 +16,7 @@ const HeroSection = ({ isMenuShown }) => {
           src="/assets/coming-soon.png"
           width={700} 
           height={108}
-         
-          objectFit="center"
+          priority={true}
           alt="Coming Soon Image"
           style={{
             margin: "0 auto", 
