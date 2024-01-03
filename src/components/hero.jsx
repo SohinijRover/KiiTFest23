@@ -4,7 +4,7 @@ const HeroSection = ({ isMenuShown }) => {
   return (
     <div className="relative min-h-screen">
       <video
-        src="/assets/bg-vid.mp4"
+        src="/files/bg-vid.mp4"
         autoPlay
         loop
         muted
@@ -13,7 +13,7 @@ const HeroSection = ({ isMenuShown }) => {
       />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-65">
         <Image
-          src="/assets/coming-soon.png"
+          src="/files/coming-soon.png"
           width={700} 
           height={108}
           priority={true}
